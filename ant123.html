@@ -132,9 +132,15 @@
     </blockquote>
 
     <input type="button" value="4 (9:21)" onclick="showPopup();" />
+    <input type="button" value="닫기" onclick="moveClose();" />
     <script language="javascript">
         function showPopup() { window.open("https://syh8293.github.io/an1/Chronicles2%209-21.html", "a", "width=600, height=400, left=200, top=100"); }
-        </script>
+
+        function moveClose() {
+  opener.location.href="https://syh8293.github.io/an1/Chronicles2%209-21.html";
+  self.close();
+}
+    </script>
     <hr>
    
     <p>
